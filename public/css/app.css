@@ -8389,17 +8389,25 @@ body {
   background-color: #000;
 }
 
-.container {
+.footer .container {
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.container p {
+.footer .container p {
   margin: 19px 0;
   color: #c1c1c1;
 }
 
-.container p a {
+.footer .container p a {
   color: inherit;
+}
+
+/* User register page */
+
+.register-page img.captcha {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
